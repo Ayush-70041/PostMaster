@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5001/posts',
+  baseURL: 'https://postmaster-5b7h.onrender.com/posts',
 });
 
 export const fetchPosts = () => API.get('/');
